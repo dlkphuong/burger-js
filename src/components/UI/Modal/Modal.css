@@ -9,11 +9,11 @@
     left: 15%;
     top: 30%;
     box-sizing: border-box;
-    transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out; /*ease-out = slow end, delay 0.3s, */ /*transition from Yn to Yy and vice versa*/
 }
 .Yy{
-    transform: translateY(0);
-    opacity: 1;
+    transform: translateY(15vh); /*pos of modal box*/
+    opacity: 1; /*opacity of the modal box*/
 }
 .Yn{
     transform: translateY(-100vh);
